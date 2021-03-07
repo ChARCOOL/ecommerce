@@ -1,0 +1,25 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "prefer-arrow-callback": 0,
+    "arrow-body-style": 0,
+    "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
+    "object-curly-spacing": [2, "always"],
+    "max-len": [1, 100, 2, { "ignoreComments": true }],
+    "new-cap": 0,
+    "no-shadow": 0,
+    "no-console": 1,
+    "no-param-reassign": 0,
+    "func-names": 0
+  }
+}
